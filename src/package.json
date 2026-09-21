@@ -1,0 +1,24 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "audit": "npm audit --audit-level=high",
+        "build": "vite build",
+        "check": "npm run build",
+        "dev": "vite"
+    },
+    "dependencies": {
+        "@inertiajs/vue3": "^2.0.0",
+        "@vitejs/plugin-vue": "^6.0.0",
+        "sweetalert2": "11.26.25",
+        "vue": "^3.5.0"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^3.1",
+        "tailwindcss": "^4.0.0",
+        "vite": "^8.0.0"
+    }
+}

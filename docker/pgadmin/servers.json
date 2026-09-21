@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Payment Receipts PostgreSQL",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "payment_receipts",
+      "Username": "payment_receipts",
+      "SSLMode": "prefer"
+    }
+  }
+}
