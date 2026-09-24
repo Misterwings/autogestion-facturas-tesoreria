@@ -16,6 +16,15 @@ Plataforma Laravel 13 para importar pagos semanales a proveedores, generar el ar
 - `docker/`: imagen PHP 8.4 para la aplicacion.
 - `docker-compose.yml`: servicios `app`, `node`, `postgres` y `pgadmin`.
 
+## Documentacion
+
+La documentacion detallada del proyecto esta en `docs/`:
+
+- [Indice de documentacion](docs/README.md)
+- [Documentacion tecnica y de operacion](docs/DOCUMENTACION-TECNICA.md)
+- [Manual de usuario](docs/MANUAL-USUARIO.md)
+- [Formato de Excel y archivos de salida](docs/FORMATO-EXCEL-Y-SALIDAS.md)
+
 ## Levantar El Entorno
 
 ```bash
